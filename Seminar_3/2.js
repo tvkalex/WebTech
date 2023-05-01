@@ -1,8 +1,8 @@
-function Greetings() {
-    let name = prompt('Как вас зовут?');
-    msg = `Привет, ${name}!`
-    alert(msg)
-};
+function greetings() {
+    const name = prompt('Как вас зовут?');
+    msg = `Привет, ${name}!`;
+    alert(msg);
+}
 
-Greetings();
+greetings();
 console.log(msg);
